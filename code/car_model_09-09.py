@@ -52,19 +52,8 @@ class Word2vec_model(object):
 
 
 if __name__ == "__main__":
-    data = pd.read_csv(r"D:\Project\DF-car_theme_emotionRecognition\data\train.csv")
-    tt = "我只能这样说用了7个月，感觉森的操控还是非常棒的比我以前的卡罗拉要好很多，缺点就是很多配置内饰比较挫，刹车嘎吱嘎吱的，很多东西要自己慢慢习惯就是。看你银子多少，银子多就上傲虎吧，银子少就上森。傲虎体面点内饰"
-    words = list(jieba.cut(tt,cut_all=True, HMM=True))
-    print(words)
-    # words = "".join(words)
-    # words = "".join(words.split())
-    print(words)
-    model = Word2Vec()
-    model.build_vocab(words)
-    model.train(words,total_examples = model.corpus_count,epochs = model.iter)
-    model.save(r"D:\Project\DF-car_theme_emotionRecognition\data\initmodel")
-    model = Word2Vec.load(r"D:\Project\DF-car_theme_emotionRecognition\data\initmodel")
-    print(model["只能"])
+    data = pd.read_csv(r"D:\Project\DF-car_theme_emotionRecognition\data\extractData\content")
+    print(data)
 
 
 
@@ -76,7 +65,7 @@ if __name__ == "__main__":
     # stpwrdlst = stpwrd_content.splitlines()
     # stpwrd_dic.close()
     # 分词并去除空分词
-    # data["jieba_result"] = data.content.apply(lambda x: ("/".join(jieba.cut(x, cut_all=True, HMM=True)).replace("//", '')))
+    # data["jieba_result"] = data.content.apply(lambda x: )
 
     # model = Word2Vec(sentences,min_count=1,size=100,seed=0,workers=1)
 
