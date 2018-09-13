@@ -37,8 +37,27 @@ class Word2vec_model(object):
 
         self.stopwords = stpwrdlst
         self.suggest_freq = suggest_freq
-        self.keywords_subject = [u"动力",u"油耗",u"价格",u"内饰",u"配置",u"安全性",u"外观",u"操控",u"空间",u"舒适性"]
-        self.subject_eng = ["price","comfort","configuration","exterior","fuelConsumption","interior","manpulation","power","safety","space"]
+        self.keywords_subject = [u"动力",u"油耗",u"价格",u"内饰",u"配置",u"安全性",u"外观",u"操控",
+                                 u"空间",u"舒适性"]
+        self.subject_eng = ["price","comfort","configuration","exterior","fuelConsumption",
+                            "interior","manpulation","power","safety","space"]
+        self.subjectRelated = {
+            "price":["价格","价钱","价位","有钱","土豪","优惠","钱","现金","性价比","便宜","贵","高昂","降价",
+                     "涨价","定价","报价","物美价廉","几千","几万","几十万","几百万","几千万","贵","值","礼包",
+                     "预算","省","万","花销"],
+            "comfort":["舒适","舒服","安静","凉","声音","噪音","效果","软","硬","忍受","异响","结实","静音","胎噪",
+                       "噪","风噪","响","问题","冷","体验","漏水","抖","清理","老化","影响","空调","受不了","味",
+                       "太差","一般","座椅"],
+            "configuration":["配置","导航","中控","CD","显示屏幕","显示屏","音响","黑屏","收音机","倒车影像","雷达",
+                             "方向盘","玻璃","座椅","启停"],
+            "exterior":[],
+            "fuelConsumption": [],
+            "interior": [],
+            "manpulation": [],
+            "power": [],
+            "safety": [],
+            "space":[]
+        }
         self.keywords_emotion = [-1,0,1]
         self.positive_words = [u"杠杠的",u"非常好",u"好",u"给力"]
         self.negative_words = [u"坑",u"不舒服"]
@@ -136,6 +155,11 @@ class Word2vec_model(object):
         for (w,s) in zip(self.keywords_subject,self.subject_eng):
             tmp = s+"_similarity"
             traindata[tmp] = traindata["content"].apply(lambda x:self.get_similarity(x,w))
+        for s in self.keywords_subject:
+            tmp = s + "_related"
+            traindata[tmp] = 0
+
+
 
         print(traindata)
 
@@ -152,6 +176,8 @@ class Word2vec_model(object):
 if __name__ == "__main__":
     clf = Word2vec_model()
     clf.build_train(r"D:\project\DF-car_theme_emotionRecognition\data\train.csv")
+
+
 
 
 
