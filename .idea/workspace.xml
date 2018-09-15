@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="029446be-bfcf-4ce5-9ecf-31b13fe4cf1f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/code/xgb_model_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/xgb_model_baseline.py" afterDir="false" />
-    </list>
+    <list default="true" id="029446be-bfcf-4ce5-9ecf-31b13fe4cf1f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,8 +61,8 @@
       <file leaf-file-name="xgb_model_baseline.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/xgb_model_baseline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="247">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
               <folding>
                 <element signature="e#188#209#0" expanded="true" />
               </folding>
@@ -132,7 +130,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1860" />
@@ -264,7 +262,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32952926" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44793153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44793153" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21849866" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -620,8 +618,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/xgb_model_baseline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="247">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
           <folding>
             <element signature="e#188#209#0" expanded="true" />
           </folding>
