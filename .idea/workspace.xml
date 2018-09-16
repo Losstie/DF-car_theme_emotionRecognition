@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="029446be-bfcf-4ce5-9ecf-31b13fe4cf1f" name="Default" comment="" />
+    <list default="true" id="029446be-bfcf-4ce5-9ecf-31b13fe4cf1f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/car_model_09-09.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/car_model_09-09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/xgb_model_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/xgb_model_baseline.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +14,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DF_car_theme_emotionRecognition$car_model_09_09.coverage" NAME="car_model_09-09 Coverage Results" MODIFIED="1537006762117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
-    <SUITE FILE_PATH="coverage/DF_car_theme_emotionRecognition$xgb_model_baseline.coverage" NAME="xgb_model_baseline Coverage Results" MODIFIED="1537008354572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/DF_car_theme_emotionRecognition$car_model_09_09.coverage" NAME="car_model_09-09 Coverage Results" MODIFIED="1537067199794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/DF_car_theme_emotionRecognition$xgb_model_baseline.coverage" NAME="xgb_model_baseline Coverage Results" MODIFIED="1537060774690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1677083995">
@@ -46,11 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="car_model_09-09.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="car_model_09-09.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/car_model_09-09.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="177" column="57" selection-start-line="177" selection-start-column="43" selection-end-line="177" selection-end-column="57" />
+            <state relative-caret-position="-703">
+              <caret line="181" column="25" lean-forward="true" selection-start-line="181" selection-start-column="25" selection-end-line="181" selection-end-column="25" />
               <folding>
                 <element signature="e#158#176#0" expanded="true" />
               </folding>
@@ -58,25 +62,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xgb_model_baseline.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="xgb_model_baseline.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/xgb_model_baseline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            <state relative-caret-position="171">
+              <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
               <folding>
                 <element signature="e#188#209#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xgb.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FinaDesigner_Dujiahao/XGBoost/xgb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="95" selection-start-line="95" selection-end-line="96" />
-              <folding>
-                <element signature="e#167#213#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,6 +93,7 @@
       <find>空间</find>
       <find>公里</find>
       <find>to_cs</find>
+      <find>pd.co</find>
       <find>drop</find>
     </findStrings>
   </component>
@@ -116,8 +109,9 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_10/run_provicnce.py" />
         <option value="$PROJECT_DIR$/data/extractData/power.csv" />
         <option value="$PROJECT_DIR$/data/newdict.txt" />
-        <option value="$PROJECT_DIR$/code/car_model_09-09.py" />
+        <option value="$PROJECT_DIR$/../FinaDesigner_Dujiahao/XGBoost/xgb.py" />
         <option value="$PROJECT_DIR$/code/xgb_model_baseline.py" />
+        <option value="$PROJECT_DIR$/code/car_model_09-09.py" />
       </list>
     </option>
   </component>
@@ -130,7 +124,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1860" />
@@ -165,7 +159,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FinaDesigner_Dujiahao/XGBoost/xgb.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FinaDesigner_Dujiahao/RF/RF.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -182,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xgb_model_baseline">
+  <component name="RunManager" selected="Python.car_model_09-09">
     <configuration name="car_model_09-09" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DF-car_theme_emotionRecognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,8 +221,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.xgb_model_baseline" />
         <item itemvalue="Python.car_model_09-09" />
+        <item itemvalue="Python.xgb_model_baseline" />
       </list>
     </recent_temporary>
   </component>
@@ -262,9 +256,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32952926" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44793153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34236804" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21849866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22654155" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -413,84 +407,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_2/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_3/feature_engineering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_4/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_5/location_getter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_8/run_provicnce.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="14" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_7/run_nation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_6/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_9/run_nation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_10/run_provicnce.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_2/config.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_3/feature_engineering.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_4/functions.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_5/location_getter.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_8/run_provicnce.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_7/run_nation.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_6/main.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_9/run_nation.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_10/run_provicnce.py" />
     <entry file="file://$PROJECT_DIR$/data/extractData/Manipulation.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -509,13 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="574" column="10" selection-start-line="574" selection-start-column="10" selection-end-line="574" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/comfort.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="490" column="39" selection-start-line="490" selection-start-column="37" selection-end-line="490" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -567,14 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/subjectTrain.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="573" column="19" selection-start-line="573" selection-start-column="19" selection-end-line="573" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/subjectTrain.csv" />
     <entry file="file://$PROJECT_DIR$/data/extractData/subjectrain_price.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -596,32 +507,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/car_model_09-09.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="177" column="57" selection-start-line="177" selection-start-column="43" selection-end-line="177" selection-end-column="57" />
-          <folding>
-            <element signature="e#158#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../FinaDesigner_Dujiahao/data/dataset1.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../FinaDesigner_Dujiahao/XGBoost/xgb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="95" selection-start-line="95" selection-end-line="96" />
+        <state relative-caret-position="441">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/subjectrain.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="301">
+          <caret line="577" column="6" lean-forward="true" selection-start-line="577" selection-start-column="6" selection-end-line="577" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test_public.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/comfort.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="490" column="39" selection-start-line="490" selection-start-column="37" selection-end-line="490" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/subjectrain_Interior.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/subjectrain_Manipulation.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FinaDesigner_Dujiahao/RF/RF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
           <folding>
-            <element signature="e#167#213#0" expanded="true" />
+            <element signature="e#171#217#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/xgb_model_baseline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        <state relative-caret-position="171">
+          <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
           <folding>
             <element signature="e#188#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/car_model_09-09.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-703">
+          <caret line="181" column="25" lean-forward="true" selection-start-line="181" selection-start-column="25" selection-end-line="181" selection-end-column="25" />
+          <folding>
+            <element signature="e#158#176#0" expanded="true" />
           </folding>
         </state>
       </provider>

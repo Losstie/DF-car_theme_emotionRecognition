@@ -186,7 +186,6 @@ class Word2vec_model(object):
         word_vectors = self.build_vectors(data)
         testdata = data[["content_id"]]
         content = data[["content"]]
-        subject = data[["subject"]]
         word_vectors_dataFrame = pd.DataFrame(word_vectors)
 
         testdata = pd.concat([testdata, word_vectors_dataFrame], axis=1)
@@ -203,8 +202,7 @@ class Word2vec_model(object):
             testdata[tmp] = testdata["content"].apply(lambda w: self.get_relatedSubject(w, s))
 
         testdata.drop(['content'], axis=1, inplace=True)
-        testdata = pd.concat([testdata, subject], axis=1)
-        testdata.to_csv('..\data\extractData\subjectTest.csv', index=None)
+        testdata.to_csv('../data/extractData/subjectTest.csv', index=None)
 
     def build_emotionTrain(self,dataPath):
         "构建情感训练集"
@@ -216,7 +214,7 @@ class Word2vec_model(object):
 
 if __name__ == "__main__":
     clf = Word2vec_model()
-    clf.build_subjectrain("..\data\extractData\power.csv")
+    clf.build_subjectest("../data/test_public.csv")
 
 
 
