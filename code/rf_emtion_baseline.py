@@ -8,5 +8,10 @@
 @description:
 """
 
+def settingRules():
+    "设定规则"
+    pass
+
+
 if __name__ == "__main__":
     pass

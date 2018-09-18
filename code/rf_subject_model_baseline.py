@@ -62,12 +62,12 @@ if __name__ == '__main__':
     # rf = clf.fit(dataset_x, dataset_y)
     # print(clf.oob_score_)
     # # 保存训练的RF模型
-    # joblib.dump(rf, '../data/trained_model/rf_comfort2.model')
+    # joblib.dump(rf, '../data/trained_subject_model/rf_comfort2.model')
     """
     预测部分
     """
     # 载入训练好的模型
-    # model = joblib.load('../data/trained_model/rf_space2.model')
+    # model = joblib.load('../data/trained_subject_model/rf_space2.model')
     # # 预测
     # testdata = pd.read_csv("../data/extractData/subjectTest.csv")
     # test_public = pd.read_csv("../data/test_public.csv")

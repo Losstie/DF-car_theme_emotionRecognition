@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="029446be-bfcf-4ce5-9ecf-31b13fe4cf1f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/code/rf_emtion_baseline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/rf_subject_model_baseline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/emotion_dictionary/comfort.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/emotion_dictionary/complimentarysense.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/emotion_dictionary/derogatorysense.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/xgb_model_baseline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/initmodel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trained_model/rf.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trained_model/xgb.model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/car_model_09-09.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/car_model_09-09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/rf_emtion_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/rf_emtion_baseline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/rf_subject_model_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/rf_subject_model_baseline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/newdict.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/newdict.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_comfort2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_comfort2.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_configuration2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_configuration2.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_exterior2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_exterior2.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_fuelConsumption2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_fuelConsumption2.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_interior2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_interior2.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_manpulation2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_manpulation2.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_power2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_power2.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_price2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_price2.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_safety2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_safety2.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_space2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_space2.model" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +30,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DF_car_theme_emotionRecognition$rf_model_baseline.coverage" NAME="rf_model_baseline Coverage Results" MODIFIED="1537193054547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
-    <SUITE FILE_PATH="coverage/DF_car_theme_emotionRecognition$car_model_09_09.coverage" NAME="car_model_09-09 Coverage Results" MODIFIED="1537085579042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/DF_car_theme_emotionRecognition$car_model_09_09.coverage" NAME="car_model_09-09 Coverage Results" MODIFIED="1537269010202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/DF_car_theme_emotionRecognition$xgb_model_baseline.coverage" NAME="xgb_model_baseline Coverage Results" MODIFIED="1537060774690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -55,11 +66,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rf_emtion_baseline.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/rf_emtion_baseline.py">
+      <file leaf-file-name="car_model_09-09.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/car_model_09-09.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="261">
+              <caret line="214" column="59" lean-forward="true" selection-start-line="214" selection-start-column="59" selection-end-line="214" selection-end-column="59" />
+              <folding>
+                <element signature="e#158#176#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,18 +89,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>四驱</find>
-      <find>油门</find>
-      <find>发动机</find>
-      <find>机油</find>
-      <find>安全</find>
-      <find>空间</find>
-      <find>公里</find>
-      <find>to_cs</find>
-      <find>pd.co</find>
-      <find>drop</find>
-      <find>舒适</find>
-      <find>apply</find>
+      <find>渣</find>
+      <find>没戏</find>
+      <find>扯淡</find>
+      <find>非常一般</find>
+      <find>高大上</find>
+      <find>令人发指</find>
+      <find>提高</find>
+      <find>糙</find>
+      <find>破车</find>
+      <find>破</find>
+      <find>不够</find>
+      <find>不行</find>
+      <find>不差</find>
+      <find>慢</find>
+      <find>很少</find>
+      <find>失望</find>
+      <find>没问题</find>
+      <find>漏油</find>
+      <find>强劲</find>
+      <find>差劲</find>
+      <find>软</find>
+      <find>少了</find>
+      <find>刹不住</find>
+      <find>扎实</find>
+      <find>有优势</find>
+      <find>比较下</find>
+      <find>1</find>
+      <find>漂亮</find>
+      <find>差点</find>
+      <find>完败</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,12 +132,17 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_9/run_nation.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_10/run_provicnce.py" />
         <option value="$PROJECT_DIR$/data/extractData/power.csv" />
-        <option value="$PROJECT_DIR$/data/newdict.txt" />
         <option value="$PROJECT_DIR$/../FinaDesigner_Dujiahao/XGBoost/xgb.py" />
-        <option value="$PROJECT_DIR$/code/car_model_09-09.py" />
         <option value="$PROJECT_DIR$/code/xgb_model_baseline.py" />
         <option value="$PROJECT_DIR$/code/rf_model_baseline.py" />
+        <option value="$PROJECT_DIR$/code/rf_subject_model_baseline.py" />
         <option value="$PROJECT_DIR$/code/rf_emtion_baseline.py" />
+        <option value="$PROJECT_DIR$/data/emotion_dictionary/comfort.txt" />
+        <option value="$PROJECT_DIR$/data/extractData/Configuration.csv" />
+        <option value="$PROJECT_DIR$/data/newdict.txt" />
+        <option value="$PROJECT_DIR$/data/emotion_dictionary/complimentarysense.txt" />
+        <option value="$PROJECT_DIR$/data/emotion_dictionary/derogatorysense.txt" />
+        <option value="$PROJECT_DIR$/code/car_model_09-09.py" />
       </list>
     </option>
   </component>
@@ -132,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,13 +191,18 @@
               <item name="DF-car_theme_emotionRecognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="DF-car_theme_emotionRecognition" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="predict" type="462c0819:PsiDirectoryNode" />
+              <item name="emotion_dictionary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DF-car_theme_emotionRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DF-car_theme_emotionRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="extractData" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rf_model_baseline">
+  <component name="RunManager" selected="Python.car_model_09-09">
     <configuration name="car_model_09-09" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DF-car_theme_emotionRecognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,8 +289,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rf_model_baseline" />
         <item itemvalue="Python.car_model_09-09" />
+        <item itemvalue="Python.rf_model_baseline" />
         <item itemvalue="Python.xgb_model_baseline" />
       </list>
     </recent_temporary>
@@ -282,12 +325,11 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32952926" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34236804" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34236804" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22922252" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14209116" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3281027" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -298,6 +340,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3281027" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,22 +380,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="start project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/extractData/comfort.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/multi.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="120" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../师兄的代码/model.py" />
-    <entry file="file://$PROJECT_DIR$/../师兄的代码/w2v_model.py" />
     <entry file="file://$PROJECT_DIR$/../师兄的代码/word2vec_model.py" />
     <entry file="file://$PROJECT_DIR$/data/extractData/content">
       <provider selected="true" editor-type-id="text-editor">
@@ -365,34 +392,6 @@
     <entry file="file://$PROJECT_DIR$/data/extractData/test.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/multi.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/Exterior.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3270">
-          <caret line="365" column="30" selection-start-line="365" selection-start-column="27" selection-end-line="365" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/fuelConsumption.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4620">
-          <caret line="911" column="42" lean-forward="true" selection-start-line="911" selection-start-column="41" selection-end-line="911" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/Interior.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10830">
-          <caret line="158" column="29" selection-start-line="158" selection-start-column="27" selection-end-line="158" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_2/config.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_3/feature_engineering.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_4/functions.py" />
@@ -402,36 +401,8 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_6/main.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_9/run_nation.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_10/run_provicnce.py" />
-    <entry file="file://$PROJECT_DIR$/data/extractData/Manipulation.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="1035" column="38" selection-start-line="1035" selection-start-column="38" selection-end-line="1035" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/space.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7706">
-          <caret line="172" column="26" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/train.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="574" column="10" selection-start-line="574" selection-start-column="10" selection-end-line="574" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/extractData/subjectrain_Configuration.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/Configuration.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" lean-forward="true" selection-start-column="57" selection-end-column="57" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
       <provider selected="true" editor-type-id="text-editor">
@@ -450,39 +421,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/newdict.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="120" column="2" selection-start-line="120" selection-start-column="2" selection-end-line="120" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/safety.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="59" column="61" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/power.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15660">
-          <caret line="522" column="51" selection-start-line="522" selection-start-column="49" selection-end-line="522" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/extractData/subjectTrain.csv" />
     <entry file="file://$PROJECT_DIR$/data/extractData/subjectrain_price.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="11" column="125" selection-start-line="11" selection-start-column="125" selection-end-line="11" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/price.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12030">
-          <caret line="401" column="40" selection-start-line="401" selection-start-column="40" selection-end-line="401" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -500,13 +443,6 @@
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="301">
           <caret line="577" column="6" lean-forward="true" selection-start-line="577" selection-start-column="6" selection-end-line="577" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/comfort.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="490" column="39" selection-start-line="490" selection-start-column="37" selection-end-line="490" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -534,9 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding>
-            <element signature="e#171#217#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -568,37 +501,153 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/multi.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/predict/predict_baseline.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/rf_subject_model_baseline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="96" column="11" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
-          <folding>
-            <element signature="e#187#206#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2280">
+          <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/car_model_09-09.py">
+    <entry file="file://$PROJECT_DIR$/data/train.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
-          <folding>
-            <element signature="e#158#176#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="194">
+          <caret line="573" column="19" lean-forward="true" selection-start-line="573" selection-start-column="19" selection-end-line="573" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/emotion_dictionary/comfort.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/subjectrain_comfort.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/rf_emtion_baseline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="360">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/comfort.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="931" column="50" selection-start-line="931" selection-start-column="47" selection-end-line="931" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/Configuration.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3118">
+          <caret line="735" column="58" lean-forward="true" selection-start-line="735" selection-start-column="55" selection-end-line="735" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/Exterior.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="478" column="60" selection-start-line="478" selection-start-column="59" selection-end-line="478" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/fuelConsumption.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24539">
+          <caret line="249" column="86" lean-forward="true" selection-start-line="249" selection-start-column="86" selection-end-line="249" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/Interior.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="536" column="28" selection-start-line="536" selection-start-column="26" selection-end-line="536" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/Manipulation.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25680">
+          <caret line="856" column="39" lean-forward="true" selection-start-line="856" selection-start-column="39" selection-end-line="856" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/power.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52378">
+          <caret line="980" column="68" selection-start-line="980" selection-start-column="66" selection-end-line="980" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/price.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2400">
+          <caret line="388" column="25" selection-start-line="388" selection-start-column="25" selection-end-line="388" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/safety.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3719">
+          <caret line="442" column="56" selection-start-line="442" selection-start-column="54" selection-end-line="442" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/space.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2008">
+          <caret line="361" column="89" lean-forward="true" selection-start-line="361" selection-start-column="89" selection-end-line="361" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/emotion_dictionary/complimentarysense.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="97" column="2" lean-forward="true" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/emotion_dictionary/derogatorysense.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="154" column="2" lean-forward="true" selection-start-line="154" selection-start-column="2" selection-end-line="154" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/newdict.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="232" column="4" lean-forward="true" selection-start-line="232" selection-start-column="4" selection-end-line="232" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/car_model_09-09.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="214" column="59" lean-forward="true" selection-start-line="214" selection-start-column="59" selection-end-line="214" selection-end-column="59" />
+          <folding>
+            <element signature="e#158#176#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

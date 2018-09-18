@@ -204,9 +204,17 @@ class Word2vec_model(object):
         testdata.drop(['content'], axis=1, inplace=True)
         testdata.to_csv('../data/extractData/subjectTest.csv', index=None)
 
-    def build_emotionTrain(self,dataPath):
-        "构建情感训练集"
-        pass
+    def build_emotionTrain(self,subjectHandleDataPath,subjectOriginalDataPath):
+        "构建情感训练集  对特定主体构建情感训练集 "
+        """
+        multi_emotionWords:0 1
+        relatedSubject_emotionTendency:1 0 -1 
+        has_questionMark:0 1
+        """
+        handleData = pd.read_csv(subjectHandleDataPath)
+        originalData = pd.read_csv(subjectOriginalDataPath)
+
+
 
     def build_emotionTest(self,dataPath):
         "构建情感测试集"
@@ -214,8 +222,8 @@ class Word2vec_model(object):
 
 if __name__ == "__main__":
     clf = Word2vec_model()
-    clf.build_subjectest("../data/test_public.csv")
-
+    # clf.build_subjectest("../data/test_public.csv")
+    clf.build_emotionTrain("../data/extractData/subjectrain_comfort.csv","../data/extractData/comfort.csv")
 
 
 
