@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="029446be-bfcf-4ce5-9ecf-31b13fe4cf1f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/data/emotion_dictionary/comfort.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/emotion_dictionary/complimentarysense.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/emotion_dictionary/derogatorysense.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/lr_emtion_baseline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/car_model_09-09.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/car_model_09-09.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/rf_emtion_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/rf_emtion_baseline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/rf_emtion_baseline.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code/rf_subject_model_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/rf_subject_model_baseline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/newdict.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/newdict.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_comfort2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_comfort2.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_configuration2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_configuration2.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_exterior2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_exterior2.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_fuelConsumption2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_fuelConsumption2.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_interior2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_interior2.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_manpulation2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_manpulation2.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_power2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_power2.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_price2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_price2.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_safety2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_safety2.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/trained_model/rf_space2.model" beforeDir="false" afterPath="$PROJECT_DIR$/data/trained_subject_model/rf_space2.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/extractData/subjectTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/extractData/subjectTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/extractData/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/predict/predict_baseline.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/predict/predict_subject_baseline.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test_public.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_public.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +21,10 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DF_car_theme_emotionRecognition$rf_model_baseline.coverage" NAME="rf_model_baseline Coverage Results" MODIFIED="1537193054547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
-    <SUITE FILE_PATH="coverage/DF_car_theme_emotionRecognition$car_model_09_09.coverage" NAME="car_model_09-09 Coverage Results" MODIFIED="1537269010202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/DF_car_theme_emotionRecognition$rf_emtion_baseline.coverage" NAME="rf_emtion_baseline Coverage Results" MODIFIED="1537364983574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/DF_car_theme_emotionRecognition$car_model_09_09.coverage" NAME="car_model_09-09 Coverage Results" MODIFIED="1537370980285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/DF_car_theme_emotionRecognition$xgb_model_baseline.coverage" NAME="xgb_model_baseline Coverage Results" MODIFIED="1537060774690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/DF_car_theme_emotionRecognition$lr_emtion_baseline.coverage" NAME="lr_emtion_baseline Coverage Results" MODIFIED="1537371688492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1677083995">
@@ -66,13 +59,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="car_model_09-09.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="car_model_09-09.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/car_model_09-09.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="214" column="59" lean-forward="true" selection-start-line="214" selection-start-column="59" selection-end-line="214" selection-end-column="59" />
+            <state relative-caret-position="30">
+              <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
               <folding>
                 <element signature="e#158#176#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="predict_subject_baseline.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/predict/predict_subject_baseline.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rf_subject_model_baseline.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/rf_subject_model_baseline.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+              <folding>
+                <element signature="e#195#214#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lr_emtion_baseline.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/lr_emtion_baseline.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1680">
+              <caret line="59" column="71" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="71" />
+              <folding>
+                <element signature="e#188#207#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,8 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>渣</find>
-      <find>没戏</find>
       <find>扯淡</find>
       <find>非常一般</find>
       <find>高大上</find>
@@ -119,7 +143,12 @@
       <find>漂亮</find>
       <find>差点</find>
       <find>完败</find>
+      <find>subject</find>
+      <find>asty</find>
     </findStrings>
+    <replaceStrings>
+      <replace>emotion</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -135,13 +164,18 @@
         <option value="$PROJECT_DIR$/../FinaDesigner_Dujiahao/XGBoost/xgb.py" />
         <option value="$PROJECT_DIR$/code/xgb_model_baseline.py" />
         <option value="$PROJECT_DIR$/code/rf_model_baseline.py" />
-        <option value="$PROJECT_DIR$/code/rf_subject_model_baseline.py" />
-        <option value="$PROJECT_DIR$/code/rf_emtion_baseline.py" />
         <option value="$PROJECT_DIR$/data/emotion_dictionary/comfort.txt" />
         <option value="$PROJECT_DIR$/data/extractData/Configuration.csv" />
         <option value="$PROJECT_DIR$/data/newdict.txt" />
         <option value="$PROJECT_DIR$/data/emotion_dictionary/complimentarysense.txt" />
         <option value="$PROJECT_DIR$/data/emotion_dictionary/derogatorysense.txt" />
+        <option value="$PROJECT_DIR$/data/extractData/emotionTest.csv" />
+        <option value="$PROJECT_DIR$/data/extractData/subjectTest.csv" />
+        <option value="$PROJECT_DIR$/data/test_public.csv" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
+        <option value="$PROJECT_DIR$/code/rf_emtion_baseline.py" />
+        <option value="$PROJECT_DIR$/code/rf_subject_model_baseline.py" />
+        <option value="$PROJECT_DIR$/code/lr_emtion_baseline.py" />
         <option value="$PROJECT_DIR$/code/car_model_09-09.py" />
       </list>
     </option>
@@ -155,11 +189,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1860" />
-    <option name="height" value="1100" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="531" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -191,13 +224,7 @@
               <item name="DF-car_theme_emotionRecognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="DF-car_theme_emotionRecognition" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="emotion_dictionary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DF-car_theme_emotionRecognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DF-car_theme_emotionRecognition" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="extractData" type="462c0819:PsiDirectoryNode" />
+              <item name="predict" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,7 +234,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FinaDesigner_Dujiahao/LR/LR.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FinaDesigner_Dujiahao/characterEngineer.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -224,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.car_model_09-09">
+  <component name="RunManager" selected="Python.lr_emtion_baseline">
     <configuration name="car_model_09-09" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DF-car_theme_emotionRecognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,6 +266,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/car_model_09-09.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="lr_emtion_baseline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DF-car_theme_emotionRecognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/lr_emtion_baseline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="rf_emtion_baseline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DF-car_theme_emotionRecognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Project\DF-car_theme_emotionRecognition\code\lr_emtion_baseline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,10 +351,14 @@
       <item itemvalue="Python.car_model_09-09" />
       <item itemvalue="Python.xgb_model_baseline" />
       <item itemvalue="Python.rf_model_baseline" />
+      <item itemvalue="Python.rf_emtion_baseline" />
+      <item itemvalue="Python.lr_emtion_baseline" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lr_emtion_baseline" />
         <item itemvalue="Python.car_model_09-09" />
+        <item itemvalue="Python.rf_emtion_baseline" />
         <item itemvalue="Python.rf_model_baseline" />
         <item itemvalue="Python.xgb_model_baseline" />
       </list>
@@ -325,9 +394,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32952926" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34236804" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34236804" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14209116" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19101876" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -380,24 +449,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="start project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../师兄的代码/word2vec_model.py" />
-    <entry file="file://$PROJECT_DIR$/data/extractData/content">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/documentcut.txt" />
-    <entry file="file://$PROJECT_DIR$/data/extractData/test.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_2/config.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_3/feature_engineering.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_4/functions.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_5/location_getter.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_8/run_provicnce.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_7/run_nation.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_6/main.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_9/run_nation.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Mxt91/RemoteFiles/2033982_2_10/run_provicnce.py" />
@@ -429,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FinaDesigner_Dujiahao/characterEngineer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="241" column="71" selection-start-line="241" selection-start-column="61" selection-end-line="241" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../FinaDesigner_Dujiahao/data/dataset1.csv">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
@@ -446,18 +490,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/subjectrain_Interior.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/extractData/subjectrain_Manipulation.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/test_public.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../FinaDesigner_Dujiahao/XGBoost/xgb.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -470,20 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FinaDesigner_Dujiahao/LR/LR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/subjectTest.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70890">
-          <caret line="2363" column="50" lean-forward="true" selection-start-line="2363" selection-start-column="50" selection-end-line="2363" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -508,27 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/predict/predict_baseline.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/rf_subject_model_baseline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/train.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="573" column="19" lean-forward="true" selection-start-line="573" selection-start-column="19" selection-end-line="573" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/emotion_dictionary/comfort.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -536,38 +535,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/subjectrain_comfort.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/rf_emtion_baseline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/comfort.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="931" column="50" selection-start-line="931" selection-start-column="47" selection-end-line="931" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/extractData/Configuration.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3118">
           <caret line="735" column="58" lean-forward="true" selection-start-line="735" selection-start-column="55" selection-end-line="735" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/Exterior.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="478" column="60" selection-start-line="478" selection-start-column="59" selection-end-line="478" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -606,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/extractData/safety.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3719">
-          <caret line="442" column="56" selection-start-line="442" selection-start-column="54" selection-end-line="442" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/extractData/space.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2008">
@@ -641,12 +605,155 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/subjectrain_comfort.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/comfort.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27930">
+          <caret line="931" column="50" selection-start-line="931" selection-start-column="47" selection-end-line="931" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/test.csv" />
+    <entry file="file://$PROJECT_DIR$/data/test_public.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="2364" column="41" selection-start-line="2364" selection-start-column="41" selection-end-line="2364" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/Exterior.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/subjectrain_space.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/emotiontrain_space.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/safety.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="57" selection-start-column="43" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/emotiontrain_comfort.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="2199" selection-start-line="1" selection-start-column="2199" selection-end-line="1" selection-end-column="2199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FinaDesigner_Dujiahao/LR/LR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/subjectTest.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="2363" column="11" lean-forward="true" selection-start-line="2363" selection-start-column="11" selection-end-line="2363" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/emotiontrain_safety.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/emotionTest.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70230">
+          <caret line="2365" selection-start-line="2365" selection-end-line="2365" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/predictBaseline-48408748751518320000.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FinaDesigner_Dujiahao/characterEngineer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="278" column="14" lean-forward="true" selection-start-line="278" selection-start-column="14" selection-end-line="278" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extractData/subjectrain_Interior.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/predict/predictBaseline.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/train.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17010">
+          <caret line="567" column="45" lean-forward="true" selection-start-line="567" selection-start-column="45" selection-end-line="567" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/predict/power2.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/predict/predict_subject_baseline.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/lr_emtion_baseline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="59" column="71" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="71" />
+          <folding>
+            <element signature="e#188#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/car_model_09-09.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="214" column="59" lean-forward="true" selection-start-line="214" selection-start-column="59" selection-end-line="214" selection-end-column="59" />
+        <state relative-caret-position="30">
+          <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
           <folding>
             <element signature="e#158#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/rf_subject_model_baseline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding>
+            <element signature="e#195#214#0" expanded="true" />
           </folding>
         </state>
       </provider>

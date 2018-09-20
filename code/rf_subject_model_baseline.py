@@ -102,6 +102,6 @@ if __name__ == '__main__':
     predict = pd.concat([price, comfort, configuration, exterior, fuelConsumption, interior, manpulation,
                          power,safety,space])
 
-    predict.to_csv("../data/predict/predict_baseline.csv",index=None)
+    predict.to_csv("../data/predict/predict_subject_baseline.csv",index=None)
 
 

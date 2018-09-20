@@ -26,6 +26,7 @@ class Word2vec_model(object):
         # 将停用词表转换为list
         stpwrdlst = stpwrd_content.splitlines()
         stpwrd_dic.close()
+
         suggest = open("..\data\/newdict.txt",'r',encoding="UTF-8")
         suggest_freq = suggest.read()
         suggest_freq = suggest_freq.splitlines()
@@ -34,7 +35,19 @@ class Word2vec_model(object):
         for sugg in suggest_freq:
             jieba.suggest_freq(sugg, True)
 
+        # 褒义词
+        compliment = open("../data/emotion_dictionary/complimentarysense.txt","r",encoding="UTF-8")
+        complimentWord = compliment.read()
+        complimentWord = complimentWord .splitlines()
+        compliment.close()
+        # 贬义词
+        derogatory = open("../data/emotion_dictionary/derogatorysense.txt","r",encoding="UTF-8")
+        derogatoryWords = derogatory.read()
+        derogatoryWords = derogatoryWords.splitlines()
+        derogatory.close()
 
+        self.compliment = complimentWord
+        self.derogatory = derogatoryWords
         self.stopwords = stpwrdlst
         self.suggest_freq = suggest_freq
         self.keywords_subject = [u"动力",u"油耗",u"价格",u"内饰",u"配置",u"安全性",u"外观",u"操控",
@@ -94,8 +107,6 @@ class Word2vec_model(object):
         model = Word2Vec(sentences, min_count=1, seed=0, size=100,workers=1,iter=20)
         model.save("..\data\model_1")
 
-
-
     # 获得单个句子的词向量表示
     def get_vector(self, words):
         # 加载词向量模型
@@ -134,6 +145,24 @@ class Word2vec_model(object):
             if w in self.subjectRelated[specialword]:
                 return 1
         return 0
+    # 获取情感倾向 1 0 -1
+    def get_relatedSubject_emotiontendency(self,words):
+        wordList = self.segSentence(words).split(" ")
+        for w in wordList:
+            if w in wordList:
+                if w in self.compliment:
+                    return 1
+                elif w in self.derogatory:
+                    return -1
+        return 0
+    # 提取情感词
+    def getSentiment_word(self,words):
+        wordList = self.segSentence(words).split(" ")
+        for w in wordList:
+            if w in wordList:
+                if w in self.compliment or w in self.derogatory:
+                    return w
+        return None
 
     # 构造评论数据集的词向量表示
     def build_vectors(self,data):
@@ -207,23 +236,56 @@ class Word2vec_model(object):
     def build_emotionTrain(self,subjectHandleDataPath,subjectOriginalDataPath):
         "构建情感训练集  对特定主体构建情感训练集 "
         """
-        multi_emotionWords:0 1
-        relatedSubject_emotionTendency:1 0 -1 
+        relatedSubject_emotionTendency:1 0  
         has_questionMark:0 1
+        // subject:one-hot编码 
         """
         handleData = pd.read_csv(subjectHandleDataPath)
         originalData = pd.read_csv(subjectOriginalDataPath)
+        trainData = handleData.drop(["subject"],axis=1)
+        trainData["relatedSubject_emotionTendency"] = originalData.content.apply(lambda w:self.get_relatedSubject_emotiontendency(w))
+        trainData["has_questionMark"] = originalData.content.apply(lambda w: 1 if "?" in w else 0)
+
+        trainData["sentiment_value"] = originalData.sentiment_value.copy()
+        trainData["sentiment_word"] = originalData.sentiment_word.copy()
+
+        storePath = subjectHandleDataPath.replace("subjec","emotion")
+
+        trainData.to_csv(storePath,index=None)
 
 
 
-    def build_emotionTest(self,dataPath):
+    def build_emotionTest(self,subjectHandleDataPath,subjectOriginalDataPath):
         "构建情感测试集"
-        pass
+        handleData = pd.read_csv(subjectHandleDataPath)
+        originalData = pd.read_csv(subjectOriginalDataPath)
+        testData = handleData
+        testData["relatedSubject_emotionTendency"] = originalData.content.apply(
+            lambda w: self.get_relatedSubject_emotiontendency(w))
+        testData["has_questionMark"] = originalData.content.apply(lambda w: 1 if "?" in w else 0)
+
+        testData["sentiment_word"] = originalData.content.apply(lambda w:self.getSentiment_word(w))
+
+        storePath = subjectHandleDataPath.replace("subject", "emotion")
+
+        testData.to_csv(storePath, index=None)
 
 if __name__ == "__main__":
     clf = Word2vec_model()
     # clf.build_subjectest("../data/test_public.csv")
-    clf.build_emotionTrain("../data/extractData/subjectrain_comfort.csv","../data/extractData/comfort.csv")
+    # clf.build_emotionTest("../data/predict/predict_subject_baseline.csv")
+    # clf.build_emotionTrain("../data/extractData/subjectrain_space.csv","../data/extractData/space.csv")
+    # clf.build_emotionTrain("../data/extractData/subjectrain_comfort.csv","../data/extractData/comfort.csv")
+    # clf.build_emotionTrain("../data/extractData/subjectrain_Configuration.csv","../data/extractData/Configuration.csv")
+    # clf.build_emotionTrain("../data/extractData/subjectrain_Exterior.csv","../data/extractData/Exterior.csv")
+    # clf.build_emotionTrain("../data/extractData/subjectrain_fuelConsumption.csv","../data/extractData/fuelConsumption.csv")
+    # clf.build_emotionTrain("../data/extractData/subjectrain_Interior.csv","../data/extractData/Interior.csv")
+    # clf.build_emotionTrain("../data/extractData/subjectrain_Manipulation.csv","../data/extractData/Manipulation.csv")
+    # clf.build_emotionTrain("../data/extractData/subjectrain_power.csv","../data/extractData/power.csv")
+    # clf.build_emotionTrain("../data/extractData/subjectrain_price.csv","../data/extractData/price.csv")
+    # clf.build_emotionTrain("../data/extractData/subjectrain_safety.csv","../data/extractData/safety.csv")
+
+    # clf.build_emotionTest("../data/extractData/subjectTest.csv","../data/test_public.csv")
 
 
 
